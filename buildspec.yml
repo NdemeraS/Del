@@ -15,10 +15,6 @@ phases:
       # - command
   pre_build:
     commands:
-      - echo "===== Current working directory ====="
-      - pwd
-      - echo "===== Files in current directory (ls -la) ====="
-      - ls -la
       - ls -lt
       - cat README.md
   build:
